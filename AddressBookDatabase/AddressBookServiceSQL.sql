@@ -18,3 +18,5 @@ insert into AddressBook values('Prithvi','Pandey','House 124','Mumbai','Maharash
 ('Kriti','singh','House 101','NewDelhi','Delhi',551155,88994422333,'sp@p.in')
 ------UC4--------
 update AddressBook set PhoneNumber=8888555566 where FirstName='Kriti'
+------UC5--------
+delete from AddressBook where FirstName='Prithvi'
