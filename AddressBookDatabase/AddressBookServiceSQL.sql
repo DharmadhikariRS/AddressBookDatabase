@@ -26,3 +26,6 @@ select * from AddressBook where City='NewDelhi' or state= 'Maharashtra'
 insert into AddressBook values ('Sidharth','Patra','House 111','Pune','Maharashtra',415415,7799557722,'sp@pp.in'),('Rima','Barde','House 54','Thane','Maharashtra',000001,8822336655,'rb@rb.com');
 
 select count (*) from AddressBook where City='Pune' and State='Maharashtra'
+------UC8--------
+insert into AddressBook values ('Prithi','Dhara','House 113','Pune','Maharashtra',121423,9988223344,'Pd@pp.com')
+select * from AddressBook  where City='Pune'order by FirstName
